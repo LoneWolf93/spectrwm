@@ -1,0 +1,23 @@
+set nocompatible		"be iMproved, required
+filetype off			"required
+syntax enable
+set number
+set relativenumber
+set clipboard=unnamedplus	"Copy/Paste between vim and others programs"
+set nobackup			"No auto backups
+set noswapfile			"No swap
+set t_Co=256			"Set if term supports 256 colors
+set mouse=nicr			"Mouse Scrolling
+set showcmd
+set showmode
+set wrap
+set ignorecase
+set smartcase
+set incsearch
+set scrolloff=8
+set encoding=utf-8
+"set nohlsearch
+
+"------ Mapping key -------
+"Map Control + t to open a new tab
+map <C-t> :tabnew<CR> 
